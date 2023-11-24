@@ -5,7 +5,6 @@ import { npApi } from './utils/nowpayments';
 
 export default function Home() {
   const [paymentStatus, setpaymentStatus] = useState('');
-  console.log(process.env.NEXT_PUBLIC_NOWPAYMENTS_API_KEY);
   const handleClick = async () => {
     try {
       const payment_id = 4602465209;
